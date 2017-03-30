@@ -1,0 +1,181 @@
+#containerDIV{
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+#logoDIV1{
+  float: left;
+  background-color: black;
+  padding: 5px;
+}
+
+#logoDIV2{
+  float: left;
+  background-color: black;
+  padding: 5px;
+  width: 730px;
+  height: 168px;
+}
+
+#menuDIV{
+  float: left;
+  width: 300px;
+  height: auto;
+  min-height: 1800px;
+  background-color: #800000;
+}
+
+#contentDIV{
+  float: left;
+  background-color: lightgrey;
+  color: black;
+  width: 750px;
+  height: auto;
+  min-height: 1800px;
+}
+
+.gallery{
+  max-width: 70%;
+  max-height: 70%;
+  padding: 10px 0px;
+}
+
+.gallery:hover{
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px 0px;
+}
+
+#footerDIV{
+  width: 1050px;
+  clear: both;
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footertext{
+  font-family: lato;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.framediv{
+  border: 5px solid #800000;
+}
+
+.news{
+  margin-top: 20px;
+  margin-left: 40px;
+  background-color: lightgray;
+  padding: 15px;
+  color: white;
+  border: 5px solid #800000;
+}
+
+.newsimg{
+  float: left;
+  margin-right: 10px;
+  border: 1px solid silver;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+}
+
+.newsheader{
+  text-align: left;
+  font-family: lato light;
+  color: #660000;
+}
+
+.newstext{
+  text-align: left;
+  font-family: lato;
+  color: black;
+  padding: 1%;
+}
+
+#termlist{
+  padding-top: 120px;
+  font-family: lato;
+  font-size: 20px;
+  color: black;
+}
+
+.termtext{
+
+}
+
+#logoimg{
+  width: 300px;
+}
+
+#logotext{
+  font-family: lato light;
+  font-size: 60px;
+  text-align: left;
+  vertical-align: middle;
+  color: white;
+}
+
+#nav{
+  color: white;
+  display: block;
+  list-style-type: disc;
+}
+
+#menutext{
+  color: white;
+  font-family: lato;
+  font-size: 20px;
+  margin-left: 20px;
+  background-color: black;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.menuhiper{
+  color: white;
+  font-family: lato;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.menuhiper:hover{
+  font-size: 21px;
+  background-color: black;
+  padding-right: inherit;
+}
+
+#kontuzja{
+  font-family: lato;
+  font-size: 20px;
+  color: black;
+  background-color: lightgrey;
+  border-collapse: collapse;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+  text-align: center;
+}
+
+td{
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+
+#tableheader{
+  font-weight: bold;
+}
