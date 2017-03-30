@@ -1,3 +1,7 @@
+body{
+  background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 2) ), url("img/bck.jpg");
+}
+
 #containerDIV{
   width: 1050px;
   margin-left: auto;
