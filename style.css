@@ -70,12 +70,19 @@ body{
 }
 
 .framediv{
-  border: 5px solid #800000;
+  background:url("img/loader2.gif") center center no-repeat;
+}
+
+#iframe{
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .news{
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   background-color: lightgray;
   padding: 15px;
   color: white;
@@ -85,16 +92,21 @@ body{
 .newsimg{
   float: left;
   margin-right: 10px;
-  border: 1px solid silver;
   padding: 5px;
   width: 200px;
   height: 150px;
+  padding-bottom: 5px;
+}
+
+.newsimg:hover{
+  filter:brightness(0.7);
 }
 
 .newsheader{
   text-align: left;
-  font-family: lato light;
+  font-family: lato;
   color: #660000;
+  font-weight: 300;
 }
 
 .newstext{
@@ -111,9 +123,6 @@ body{
   color: black;
 }
 
-.termtext{
-
-}
 
 #logoimg{
   width: 300px;
@@ -147,6 +156,9 @@ a{
   color: white;
 }
 
+#wall{
+  margin-top: 20px;
+}
 .menuhiper{
   color: white;
   font-family: lato;
@@ -171,6 +183,7 @@ a{
   border-right: solid;
   border-bottom: solid;
   text-align: center;
+  margin-top: 150px;
 }
 
 td{
